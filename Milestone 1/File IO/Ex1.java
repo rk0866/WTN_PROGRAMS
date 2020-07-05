@@ -2,7 +2,6 @@ package FileIO;
 import java.util.*;
 import java.io.*;
 public class Ex1 {
-
 		public static void main(String[] args) throws IOException {
 			Scanner sc = new Scanner(System.in);
 			System.out.println("Enter the file name");
@@ -28,9 +27,6 @@ public class Ex1 {
 					
 			System.out.println("File '" + filename + "' has " +
 					charCount + " instances of letter '" + needle + "'.");
-			
-			br.close();
-			sc.close();
 		}
 
 	}
